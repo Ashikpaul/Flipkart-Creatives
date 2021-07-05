@@ -1,0 +1,74 @@
+body{
+  background-color: whitesmoke;
+}
+
+.redCard{
+  background-color: red;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.blueCard{
+  background-color: blue;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.greenCard{
+  background-color: green;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.red{
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.blue{
+  background-color: blue;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.green{
+  background-color: green;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.alignItems{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.filterSection{
+  width: 50%;
+}
+
+#progressSection progress{
+  width: 50%;
+  height: 30px;
+}
+
+#newCreative{
+  width: 30%;
+  height: 100vh;
+  border-left: 3px solid black;
+  position: fixed;
+  right:0;
+  top:0;
+  background-color: wheat;
+  padding: 10px;
+}
